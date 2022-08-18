@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .header__icon{
+
+} */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(243, 236, 236);
+}
+.header__icon{
+    padding: 20px;
+    
+}
+
+.header__logo{
+    object-fit: contain;
+    /* display: flex; */
+    height: 44px;
+    cursor: pointer;
+}
